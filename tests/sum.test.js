@@ -1,5 +1,23 @@
-import { sum } from '../src'
+import { Executor } from '../src/Executor'
+import { sleep } from '../src/AsyncOperation'
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3)
+describe('Executor', () => {
+  test('can execute', () => {
+    let wasExecuted = false
+
+    const executor = new Executor(() => {
+      wasExecuted = true
+    })
+
+    executor.execute()
+
+    expect(wasExecuted).toBeTruthy()
+  })
+  test('isProcessing should be true', () => {
+    const executor = new Executor(async () => {
+      await sleep()
+    })
+    executor.execute()
+    expect(executor.isProcessing).toBeTruthy()
+  })
 })
