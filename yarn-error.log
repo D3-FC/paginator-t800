@@ -1,0 +1,51 @@
+Arguments: 
+  D:\Programs\nvm\program\node.exe D:\Programs\Yarn\bin\yarn.js publish
+
+PATH: 
+  C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Programs\nvm\config;D:\Programs\nvm\program;D:\Programs\Yarn\bin\;D:\Work\OSPanel\modules\git\bin;D:\Work\OSPanel\modules\php\PHP_7.3-x64;D:\Programs\cygwin64\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Programs\nvm\config;D:\Programs\nvm\program;D:\Programs\Yarn\bin\;D:\Work\OSPanel\modules\git\bin;C:\Users\d3-su\AppData\Local\Microsoft\WindowsApps;D:\Programs\nvm\config;D:\Programs\nvm\program;C:\Users\d3-su\AppData\Local\Yarn\bin;D:\Work\Programs\Android\Sdk\tools;D:\Work\Programs\Android\Sdk\platform-tools;D:\Programs\Microsoft VS Code\bin;D:\work\ospanel\modules\database\MySQL-8.0-x64\bin;
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (D:\Programs\Yarn\lib\cli.js:136724:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:778:16)
+      at ReadStream.onkeypress (readline.js:163:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:422:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1014:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:280:12)
+
+npm manifest: 
+  {
+    "name": "paginator-t800",
+    "version": "0.0.1",
+    "description": "Paginator T800",
+    "main": "index.js",
+    "scripts": {
+      "test": "test"
+    },
+    "keywords": [
+      "paginator",
+      "js",
+      "ts"
+    ],
+    "author": "d3-fc@mail.ru",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
