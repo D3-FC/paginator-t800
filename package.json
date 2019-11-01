@@ -1,0 +1,16 @@
+{
+  "name": "paginator",
+  "version": "0.0.1",
+  "description": "Paginator T800",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "paginator",
+    "js",
+    "ts"
+  ],
+  "author": "d3-fc@mail.ru",
+  "license": "MIT"
+}
